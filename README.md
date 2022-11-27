@@ -1,6 +1,8 @@
 # Sosnovyy's Live Templates for IntelliJ Idea
 [Official Live Template documentation from Jet Brains](https://www.jetbrains.com/help/idea/template-variables.html)
 
+<br />
+
 ## Installation
 Download and place Live Template files from this repository in to your IDE's templates folder (~/Library/Application Support/JetBrains/templates or something like this). It may require to restart your IDE to start working.
 
@@ -9,7 +11,7 @@ Download and place Live Template files from this repository in to your IDE's tem
 ## Supported templates
 
 <details>
-  <summary>**Flutter**</summary>
+  <summary>Flutter</summary>
 
 ### stf
 Empty statefull widget with initState and dispose methods
@@ -36,7 +38,7 @@ Freezed data class with empty constructor and fromJson
 </details>
 
 <details>
-  <summary>**Highway project**</summary>
+  <summary>Highway project</summary>
 
 ### hwcolors
 Variable with project colors from Theme
