@@ -20,19 +20,19 @@ Empty statefull widget with initState and dispose methods
 Empty stateless widget
 
 ### fb
-Main BLoC class with Freezed import and part directives for event and state classes
+Main BLoC class with Freezed import and part directives for event and state classes\
 *Have input*
 
 ### fbs
-BLoC Freezed state class with a few preset states and getters
+BLoC Freezed state class with a few preset states and getters\
 *Have input*
 
 ### fbe
-BLoC Freezed event class
+BLoC Freezed event class\
 *Have input*
 
 ### fdc
-Freezed data class with empty constructor and fromJson
+Freezed data class with empty constructor and fromJson\
 *Have input*
   
 </details>
