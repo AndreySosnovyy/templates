@@ -4,14 +4,16 @@
 ## Installation
 Download and place Live Template files from this repository in to your IDE's templates folder (~/Library/Application Support/JetBrains/templates or something like this). It may require to restart your IDE to start working.
 
+<br />
+
 ## Supported templates
 
 <details>
-  <summary>Flutter</summary>
+  <summary>**Flutter**</summary>
 
 ### stf
 Empty statefull widget with initState and dispose methods
-
+     
 ### stl
 Empty stateless widget
 
@@ -34,7 +36,7 @@ Freezed data class with empty constructor and fromJson
 </details>
 
 <details>
-  <summary>Flutter Highway project</summary>
+  <summary>**Highway project**</summary>
 
 ### hwcolors
 Variable with project colors from Theme
@@ -48,6 +50,8 @@ Highway view class:
 - bottom sized box
   
 </details>
+
+<br />
 
 ## Tips
 - Some of the Live Templates may have optional input string value. This value will be used for a few purposes: class names, paths and so on. To provide the input:
