@@ -34,6 +34,11 @@ BLoC Freezed event class\
 ### fdc
 Freezed data class with empty constructor and fromJson\
 *Have input*
+
+### debug it
+Debug print statement with variable name\
+*Have input*
+  
   
 </details>
 
@@ -43,13 +48,12 @@ Freezed data class with empty constructor and fromJson\
 ### hwcolors
 Variable with project colors from Theme
 
-### hwview
-Highway view class:
-- some imports
-- BLoC widgets
-- HighwayScaffold
-- HighwayDefaultAppBar
-- bottom sized box
+### hwviewl
+Highway statleless view class template
+
+### hwviewf
+Highway statefull view class template
+
   
 </details>
 
