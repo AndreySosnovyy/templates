@@ -1,0 +1,41 @@
+<templateSet group="Flutter Sosnovyy">
+  <template name="stf" value="import 'package:flutter/cupertino.dart';&#10;&#10;class $NAME$ extends StatefulWidget {&#10;  const $NAME$({&#10;    super.key,&#10;  });&#10;&#10;  @override&#10;  State&lt;$NAME$&gt; createState() =&gt; _$NAME$State();&#10;}&#10;&#10;class _$NAME$State extends State&lt;$NAME$&gt; {&#10;  @override&#10;  void initState() {&#10;    super.initState();&#10;  }&#10;&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Container($END$);&#10;  }&#10;&#10;  @override&#10;  void dispose() {&#10;    super.dispose();&#10;  }&#10;}&#10;" description="Statefull widget" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="stl" value="import 'package:flutter/material.dart';&#10;&#10;class $NAME$ extends StatelessWidget {&#10;  const $NAME$({&#10;    super.key,&#10;  });&#10;&#10;  @override&#10;  Widget build(BuildContext context) {&#10;    return Container($END$);&#10;  }&#10;}&#10;" description="Stateless widget" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="debug it" value="print('$SELECTION$$A$ = $${$SELECTION$$A$}');$END$" description="Prints a variable with its name" toReformat="false" toShortenFQNames="true">
+    <variable name="A" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+      <option name="DART_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="isios" value="Platform.isIOS ? $THEN$$END$ : $ELSE$;" description="Ternary operator with isIOS condition" toReformat="false" toShortenFQNames="true">
+    <variable name="THEN" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ELSE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="isandroid" value="Platform.isAndroid ? $THEN$$END$ : $ELSE$;" description="Ternary operator with isAndroid condition" toReformat="false" toShortenFQNames="true">
+    <variable name="THEN" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ELSE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="repo" value="abstract class $CAP_SELECTION$Repository {&#10;  ///&#10;  $END$&#10;}&#10;" description="Abstract class repository" toReformat="false" toShortenFQNames="true">
+    <variable name="CAP_SELECTION" expression="capitalize(SELECTION)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_TOPLEVEL" value="true" />
+    </context>
+  </template>
+</templateSet>
