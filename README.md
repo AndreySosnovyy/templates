@@ -4,7 +4,7 @@
 <br />
 
 ## Installation
-Download and place Live Template files from this repository in to your IDE's templates folder (~/Library/Application Support/JetBrains/templates or something like this). It may require to restart your IDE to start working.
+Download and place Live Template files from this repository in to your IDE's templates folder (~/Library/Application Support/JetBrains/<IDE>/templates or ~/Library/Application Support/Google/<IDE>/templates are default paths for JetBrains IDEs). It may require to restart your IDE to start working.
 
 <br />
 
@@ -18,6 +18,25 @@ Empty statefull widget with initState and dispose methods
      
 ### stl
 Empty stateless widget
+
+### isios
+Ternary operator with isIOS condition
+  
+### isandroid
+Ternary operator with isAndroid condition
+  
+### repo
+Abstract class repository
+*Have input*
+
+### debug it
+Debug print statement with variable name\
+*Have input*
+  
+</details>
+
+<details>
+  <summary>Flutter packages</summary>
 
 ### fb
 Main BLoC class with Freezed import and part directives for event and state classes\
@@ -34,11 +53,17 @@ BLoC Freezed event class\
 ### fdc
 Freezed data class with empty constructor and fromJson\
 *Have input*
-
-### debug it
-Debug print statement with variable name\
+  
+### getit
+GetIt stetement
+  
+### repoimpl
+Repository implementation class with injectable
 *Have input*
   
+### rtfclient
+REST client with Retrofit and Dio
+*Have input*
   
 </details>
 
@@ -53,7 +78,9 @@ Highway statleless view class template
 
 ### hwviewf
 Highway statefull view class template
-
+  
+### hwroute
+Highway GoRouter Route object
   
 </details>
 
