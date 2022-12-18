@@ -33,6 +33,10 @@ Abstract class repository
 Debug print statement with variable name\
 *Have input*
   
+### break point
+Inserts print statement with repeatable string\
+*Have input*
+  
 </details>
 
 <details>
@@ -58,11 +62,11 @@ Freezed data class with empty constructor and fromJson\
 GetIt stetement
   
 ### repoimpl
-Repository implementation class with injectable
+Repository implementation class with injectable\
 *Have input*
   
 ### rtfclient
-REST client with Retrofit and Dio
+REST client with Retrofit and Dio\
 *Have input*
   
 </details>
@@ -71,16 +75,16 @@ REST client with Retrofit and Dio
   <summary>Highway project</summary>
 
 ### hwcolors
-Variable with project colors from Theme
+Variable with project colors from Theme\
 
 ### hwviewl
-Highway statleless view class template
+Highway statleless view class template\
 
 ### hwviewf
-Highway statefull view class template
+Highway statefull view class template\
   
 ### hwroute
-Highway GoRouter Route object
+Highway GoRouter Route object\
   
 </details>
 
