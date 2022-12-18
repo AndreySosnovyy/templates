@@ -38,4 +38,10 @@
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
+  <template name="break point" value="print('$S$$S$$S$$S$$S$$S$$S$$S$$S$$S$$S$$S$$S$$S$$S$$S$');$END$" description="Inserts print statement" toReformat="false" toShortenFQNames="true">
+    <variable name="S" expression="SELECTION" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
 </templateSet>
