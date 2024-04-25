@@ -12,28 +12,28 @@ Download and move Live Template files from this repository into your IDE's templ
   <summary>Flutter - general</summary>
 
 ### debug it*
-Debug print statement with variable name\
+Debug print statement with variable name
 
 ### break point*
-Inserts print statement with repeatable string\
+Inserts print statement with repeatable string
 
 ### doct
-Documentation wrapped in template annotation\
+Documentation wrapped in template annotation
 
 ### stf
-Empty stateful widget with initState and dispose methods\
+Empty stateful widget with initState and dispose methods
      
 ### stl
-Empty stateless widget\
+Empty stateless widget
 
 ### isios
-Ternary operator with isIOS condition\
+Ternary operator with isIOS condition
   
 ### isandroid
-Ternary operator with isAndroid condition\
+Ternary operator with isAndroid condition
   
 ### repo*
-Abstract class repository\
+Abstract class repository
 
 <p>* - have input<p>
   
@@ -43,25 +43,25 @@ Abstract class repository\
   <summary>Flutter - packages</summary>
 
 ### fb*
-Main BLoC class with Freezed import and part directives for event and state classes\
+Main BLoC class with Freezed import and part directives for event and state classes
 
 ### fbs*
-BLoC Freezed state class with a few preset states and getters\
+BLoC Freezed state class with a few preset states and getters
 
 ### fbe*
-BLoC Freezed event class\
+BLoC Freezed event class
 
 ### fdc*
-Freezed data class with empty constructor and fromJson\
+Freezed data class with empty constructor and fromJson
 
 ### fdse*
-Freezed BLoC side effect class\
+Freezed BLoC side effect class
   
 ### repoimpl*
-Repository implementation class with injectable\
+Repository implementation class with injectable
   
 ### rtfclient*
-REST client with Retrofit and Dio\
+REST client with Retrofit and Dio
 
 <p>* - have input<p>
 </details>
