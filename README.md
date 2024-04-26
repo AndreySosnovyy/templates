@@ -58,7 +58,7 @@ Freezed data class with empty constructor and fromJson
 Freezed BLoC side effect class
   
 ### repoimpl*
-Repository implementation class with injectable
+Repository implementation class
   
 ### rtfclient*
 REST client with Retrofit and Dio
