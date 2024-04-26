@@ -8,7 +8,7 @@
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="fbe" value="part of '$DECAP_SELECTION$_bloc.dart';&#10;&#10;@freezed&#10;class $CAP_SELECTION$Event with _$$$CAP_SELECTION$Event {&#10;  const $CAP_SELECTION$Event._();&#10;&#10;  const factory $CAP_SELECTION$Event.$END$$EVENT$() = _$CAP_EVENT$$CAP_SELECTION$Event;&#10;}&#10;" description="Freezed BLoC event class" toReformat="false" toShortenFQNames="true">
+  <template name="fbe" value="part of '$DECAP_SELECTION$_bloc.dart';&#10;&#10;@freezed&#10;sealed class $CAP_SELECTION$Event with _$$$CAP_SELECTION$Event {&#10;  const $CAP_SELECTION$Event._();&#10;&#10;  const factory $CAP_SELECTION$Event.$END$$EVENT$() = _$CAP_EVENT$$CAP_SELECTION$Event;&#10;}&#10;" description="Freezed BLoC event class" toReformat="false" toShortenFQNames="true">
     <variable name="DECAP_SELECTION" expression="decapitalize(SELECTION)" defaultValue="" alwaysStopAt="true" />
     <variable name="CAP_SELECTION" expression="capitalize(SELECTION)" defaultValue="" alwaysStopAt="true" />
     <variable name="EVENT" expression="" defaultValue="" alwaysStopAt="true" />
@@ -17,7 +17,7 @@
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="fbs" value="part of '$DECAP_SELECTION$_bloc.dart';&#10;&#10;@freezed&#10;class $CAP_SELECTION$State with _$$$CAP_SELECTION$State {&#10;  const $CAP_SELECTION$State._();&#10;&#10;  const factory $CAP_SELECTION$State.initial() = _Initial$CAP_SELECTION$State;&#10;&#10;  const factory $CAP_SELECTION$State.loading() = _Loading$CAP_SELECTION$State;&#10;&#10;  const factory $CAP_SELECTION$State.idle() = _Idle$CAP_SELECTION$State;&#10;&#10;  const factory $CAP_SELECTION$State.error({&#10;    required String message,&#10;  }) = _Error$CAP_SELECTION$State;&#10;&#10;  bool get isInitial =&gt; maybeMap(&#10;        initial: (_) =&gt; true,&#10;        orElse: () =&gt; false,&#10;      );&#10;&#10;  bool get isLoading =&gt; maybeMap(&#10;        loading: (_) =&gt; true,&#10;        orElse: () =&gt; false,&#10;      );&#10;&#10;  bool get isIdle =&gt; maybeMap(&#10;        idle: (_) =&gt; true,&#10;        orElse: () =&gt; false,&#10;      );&#10;      &#10;  bool get isError =&gt; maybeMap(&#10;        error: (_) =&gt; true,&#10;        orElse: () =&gt; false,&#10;      );&#10;&#10;  String? get errorMessage =&gt; mapOrNull(&#10;        error: (state) =&gt; state.message,&#10;      );&#10;}&#10;" description="Freezed BLoC state class" toReformat="false" toShortenFQNames="true">
+  <template name="fbs" value="part of '$DECAP_SELECTION$_bloc.dart';&#10;&#10;@freezed&#10;sealed class $CAP_SELECTION$State with _$$$CAP_SELECTION$State {&#10;  const $CAP_SELECTION$State._();&#10;&#10;  const factory $CAP_SELECTION$State.initial() = _Initial$CAP_SELECTION$State;&#10;&#10;  const factory $CAP_SELECTION$State.loading() = _Loading$CAP_SELECTION$State;&#10;&#10;  const factory $CAP_SELECTION$State.idle() = _Idle$CAP_SELECTION$State;&#10;&#10;  const factory $CAP_SELECTION$State.error({&#10;    required String message,&#10;  }) = _Error$CAP_SELECTION$State;&#10;&#10;  bool get isInitial =&gt; maybeMap(&#10;        initial: (_) =&gt; true,&#10;        orElse: () =&gt; false,&#10;      );&#10;&#10;  bool get isLoading =&gt; maybeMap(&#10;        loading: (_) =&gt; true,&#10;        orElse: () =&gt; false,&#10;      );&#10;&#10;  bool get isIdle =&gt; maybeMap(&#10;        idle: (_) =&gt; true,&#10;        orElse: () =&gt; false,&#10;      );&#10;      &#10;  bool get isError =&gt; maybeMap(&#10;        error: (_) =&gt; true,&#10;        orElse: () =&gt; false,&#10;      );&#10;&#10;  String? get errorMessage =&gt; mapOrNull(&#10;        error: (state) =&gt; state.message,&#10;      );&#10;}&#10;" description="Freezed BLoC state class" toReformat="false" toShortenFQNames="true">
     <variable name="DECAP_SELECTION" expression="decapitalize(SELECTION)" defaultValue="" alwaysStopAt="true" />
     <variable name="CAP_SELECTION" expression="capitalize(SELECTION)" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -64,7 +64,7 @@
       <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="fbse" value="part of '$DECAP_SELECTION$_bloc.dart';&#10;&#10;@freezed&#10;class $CAP_SELECTION$SideEffect with _$$$CAP_SELECTION$SideEffect {&#10;  const $CAP_SELECTION$SideEffect._();&#10;&#10;  const factory $CAP_SELECTION$SideEffect.error() = _Error$CAP_SELECTION$SideEffect;&#10;}&#10;" description="Freezed BLoC side effect class" toReformat="false" toShortenFQNames="true">
+  <template name="fbse" value="part of '$DECAP_SELECTION$_bloc.dart';&#10;&#10;@freezed&#10;sealed class $CAP_SELECTION$SideEffect with _$$$CAP_SELECTION$SideEffect {&#10;  const $CAP_SELECTION$SideEffect._();&#10;&#10;  const factory $CAP_SELECTION$SideEffect.error() = _Error$CAP_SELECTION$SideEffect;&#10;}&#10;" description="Freezed BLoC side effect class" toReformat="false" toShortenFQNames="true">
     <variable name="DECAP_SELECTION" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CAP_SELECTION" expression="" defaultValue="" alwaysStopAt="true" />
     <context>

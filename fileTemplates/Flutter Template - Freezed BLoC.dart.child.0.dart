@@ -3,7 +3,7 @@
 part of '${LOWER_CASE_NAME}_bloc.dart';
 
 @freezed
-class ${CAPITALIZED_NAME}State with _$$${CAPITALIZED_NAME}State {
+sealed class ${CAPITALIZED_NAME}State with _$$${CAPITALIZED_NAME}State {
   const ${CAPITALIZED_NAME}State._();
 
   const factory ${CAPITALIZED_NAME}State.initial() = _Initial${CAPITALIZED_NAME}State;

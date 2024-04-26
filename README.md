@@ -57,7 +57,7 @@ Freezed data class with empty constructor and fromJson
 ### fdse*
 Freezed BLoC side effect class
   
-### repoimpl*
+### repoimpl[*](https://github.com/AndreySosnovyy/templates/tree/main)
 Repository implementation class with injectable
   
 ### rtfclient*
