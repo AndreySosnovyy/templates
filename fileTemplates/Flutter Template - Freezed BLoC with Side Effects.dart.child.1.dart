@@ -3,8 +3,8 @@
 part of '${LOWER_CASE_NAME}_bloc.dart';
 
 @freezed
-sealed class ${CAPITALIZED_NAME}Event with _$$${CAPITALIZED_NAME}Event {
-  const ${CAPITALIZED_NAME}Event._();
+sealed class ${CAPITALIZED_NAME}SideEffect with _$${CAPITALIZED_NAME}SideEffect {
+  const ${CAPITALIZED_NAME}SideEffect._();
 
-  const factory ${CAPITALIZED_NAME}Event.???() = _???${CAPITALIZED_NAME}Event;
+  const factory ${CAPITALIZED_NAME}SideEffect.error() = _Error${CAPITALIZED_NAME}SideEffect;
 }

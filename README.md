@@ -3,8 +3,8 @@
 
 ## Installation
 Download and move Live Template files from this repository into your IDE's templates folder
-(*~/Library/Application Support/JetBrains/<IDE>/templates* or *~/Library/Application Support/Google/<IDE>
-/templates* are default paths for JetBrains IDEs on macOS). It may require to restart your IDE to start working.
+(*~/Library/Application Support/JetBrains/\<IDE>/templates* or *~/Library/Application Support/Google/\<IDE>/ templates*
+are default paths for JetBrains IDEs on macOS). It may require to restart your IDE to start working.
 
 ## Available templates
 
@@ -34,6 +34,9 @@ Ternary operator with isAndroid condition
   
 ### repo*
 Abstract class repository
+
+### ncase
+Default wildcard case returning null for switch statement
 
 <p>* - have input<p>
   

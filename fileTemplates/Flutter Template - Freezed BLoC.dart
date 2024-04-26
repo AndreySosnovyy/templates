@@ -1,8 +1,7 @@
 #set($CAPITALIZED_NAME = $NAME.substring(0,1).toUpperCase() + $NAME.substring(1))
 #set($LOWER_CASE_NAME = $NAME.toLowerCase())
-// ignore_for_file: depend_on_referenced_packages
 import 'package:dio/dio.dart';
-import 'package:flutter_bloc_side_effect/side_effect_bloc.dart';
+import 'package:flutter_bloc_side_effect/flutter_bloc_side_effect.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part '${LOWER_CASE_NAME}_bloc.freezed.dart';
@@ -13,11 +12,11 @@ class ${CAPITALIZED_NAME}Bloc extends Bloc<${CAPITALIZED_NAME}Event, ${CAPITALIZ
   ${CAPITALIZED_NAME}Bloc({
     required final ${CAPITALIZED_NAME}Repository repository,
   })  : _repository = repository,
-        super(${CAPITALIZED_NAME}State.initial()) {
+        super(const ${CAPITALIZED_NAME}State.initial()) {
     on<${CAPITALIZED_NAME}Event>(
-      (event, emitter) => event.map(
-        ???: (event) => _???(event, emitter),
-      ),
+      (event, emitter) => switch(event) {
+        _???${CAPITALIZED_NAME}Event => _???(event, emitter),
+      },
     );
   }
 
