@@ -9,7 +9,7 @@ part '${LOWER_CASE_NAME}_event.dart';
 part '${LOWER_CASE_NAME}_state.dart';
 
 class ${CAPITALIZED_NAME}Bloc extends Bloc<${CAPITALIZED_NAME}Event, ${CAPITALIZED_NAME}State> {
-  ${CAPITALIZED_NAME}Bloc({
+  const ${CAPITALIZED_NAME}Bloc({
     required final ${CAPITALIZED_NAME}Repository repository,
   })  : _repository = repository,
         super(const ${CAPITALIZED_NAME}State.initial()) {

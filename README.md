@@ -4,12 +4,16 @@
 ## Installation
 Download and move Live Template files from this repository into your IDE's templates folder
 (*~/Library/Application Support/JetBrains/\<IDE>/templates* or *~/Library/Application Support/Google/\<IDE>/ templates*
-are default paths for JetBrains IDEs on macOS). It may require to restart your IDE to start working.
+are default paths for JetBrains IDEs on macOS).</br>
+It may require to restart your IDE to start working.
 
 ## Available templates
 
 <details>
   <summary>Flutter - general</summary>
+
+### todo*
+TODO comment
 
 ### debug it*
 Debug print statement with variable name
@@ -19,6 +23,9 @@ Inserts print statement with repeatable string
 
 ### doct
 Documentation wrapped in template annotation
+
+### macro
+Macro documentation statement
 
 ### stf
 Empty stateful widget with initState and dispose methods
@@ -31,9 +38,6 @@ Ternary operator with isIOS condition
   
 ### isandroid
 Ternary operator with isAndroid condition
-  
-### repo*
-Abstract class repository
 
 ### ncase
 Default wildcard case returning null for switch statement
@@ -43,7 +47,13 @@ Default wildcard case returning null for switch statement
 </details>
 
 <details>
-  <summary>Flutter - packages</summary>
+  <summary>Flutter - template</summary>
+
+### appcolors
+Colors extension
+
+### colorsch
+Color scheme variable
 
 ### fb*
 Main BLoC class with Freezed import and part directives for event and state classes
@@ -59,7 +69,10 @@ Freezed data class with empty constructor and fromJson
 
 ### fdse*
 Freezed BLoC side effect class
-  
+
+### repo*
+Abstract class repository
+
 ### repoimpl*
 Repository implementation class
   
@@ -73,10 +86,10 @@ REST client with Retrofit and Dio
 - Some of the Live Templates may have optional input string value. This value will be used for a few purposes: class names, paths and so on. To provide the input:
   1) type it
   2) select it
-  3) use key shortcut "command + option + t" to open menu
+  3) use key shortcut "command (⌘) + option (⌥) + T" to open menu
   4) pick the desired template by name.
 - Every template has own applicable context. That mean not every template may be used everywhere in file. Some of them only applicable on very top level (or in empty file).
-- TAB button allows you to go throw all the important points in template and set necessary names.
+- TAB button allows you to go throw all the anchor points in template and set necessary names.
 
 # Sosnovyy's File and Code Templates
 
@@ -85,8 +98,9 @@ REST client with Retrofit and Dio
 ## Installation
 Download and move all files (or just necessary ones but take attention that some of them have parent-child relation)
 Templates from *fileTemplates/* folder on repository into IDE's /fileTemplates/ folder
-(*~/Library/Application Support/JetBrains/<IDE>/fileTemplates* or *~/Library/Application Support/Google/<IDE>
-/fileTemplates* are default paths for JetBrains IDEs on macOS). It may require to restart your IDE to start working.
+(*~/Library/Application Support/JetBrains/\<IDE>/fileTemplates* or *~/Library/Application Support/Google/\<IDE>
+/fileTemplates* are default paths for JetBrains IDEs on macOS).</br>
+It may require to restart your IDE to start working.
 
 ## Available templates
 

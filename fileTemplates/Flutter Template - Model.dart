@@ -11,7 +11,7 @@ part '${LOWER_CASE_NAME}.g.dart';
 class ${CAPITALIZED_NAME} with _$${CAPITALIZED_NAME} {
   factory ${CAPITALIZED_NAME}({
     ///
-    required final 
+    required String id, 
   }) = _${CAPITALIZED_NAME};
 
   factory ${CAPITALIZED_NAME}.fromJson(Map<String, dynamic> json) =>

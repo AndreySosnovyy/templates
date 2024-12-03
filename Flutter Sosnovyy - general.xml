@@ -27,7 +27,6 @@
   <template name="doct" value="/// {@template $END$}&#10;/// &#10;/// {@endtemplate}" description="Documentation wrapped in template annotation" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="DART" value="true" />
-      <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
   <template name="isios" value="Platform.isIOS ? $THEN$$END$ : $ELSE$;" description="Ternary operator with isIOS condition" toReformat="false" toShortenFQNames="true">
@@ -35,7 +34,6 @@
     <variable name="ELSE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART" value="true" />
-      <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
   <template name="isandroid" value="Platform.isAndroid ? $THEN$$END$ : $ELSE$;" description="Ternary operator with isAndroid condition" toReformat="false" toShortenFQNames="true">
@@ -43,7 +41,6 @@
     <variable name="ELSE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART" value="true" />
-      <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
   <template name="ncase" value="_ =&gt; null," description="Default wildcard case returning null for switch statement" toReformat="false" toShortenFQNames="true">
